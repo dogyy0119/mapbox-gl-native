@@ -193,7 +193,7 @@ executors:
     docker:
       # FIXME: Move the image to mbgl/
       - image: tmpsantos/mbgl_ci:1.9
-    resource_class: xlarge
+    resource_class: large
     working_directory: /src
     environment:
       DISPLAY: :99
